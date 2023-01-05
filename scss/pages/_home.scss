@@ -1,0 +1,11 @@
+.hero {
+  .container {
+    padding-top: 7rem;
+    padding-bottom: 7px;
+  }
+
+  &__info {
+    width: 100%;
+    max-width: 445px;
+  }
+}

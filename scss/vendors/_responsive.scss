@@ -1,0 +1,66 @@
+@include responsive(1400px) {
+  body {
+    background-size: 650px 100%, cover;
+  }
+}
+
+@include responsive(1200px) {
+  body {
+    background-size: 525px 100%, cover;
+  }
+}
+
+@include responsive(1000px) {
+  body {
+    background-size: 425px 100%, cover;
+  }
+}
+@include responsive(991px) {
+  body {
+    background-image: url("../pictures/png/hero-mobile.png"),
+      url("../pictures/png/main-bg.png");
+    background-size: 100vw 50vh, 100vw 150vh;
+    background-position: top 96px right, center;
+  }
+
+  .header {
+    .container {
+      padding-top: 3.1rem;
+      padding-bottom: 3.1rem;
+    }
+  }
+
+  .hero {
+    margin-top: 50vh;
+
+    .container{
+      margin-bottom: 30px;
+    }
+
+    &__info{
+      margin: 0 auto;
+      margin-bottom: 3.2rem;
+    }
+
+    h1 {
+      font-size: $h2-font-size;
+      text-align: center;
+    }
+
+    p{
+      text-align: center;
+    }
+
+    .form-control{
+      margin: 0 auto;
+
+      input{
+        height: 48px;
+      }
+
+      button{
+        padding: 13px 28px;
+      }
+    }
+  }
+}

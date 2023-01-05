@@ -1,0 +1,32 @@
+body {
+  @include font-style(
+    $main-font-size,
+    $main-font-height,
+    normal,
+    $secondary-color-dark-pink,
+    $main-font-family,
+    400
+  );
+}
+
+h1 {
+  @include font-style(
+    $h1-font-size,
+    $h1-font-height,
+    normal,
+    $secondary-color-dark-pink,
+    $main-font-family-semi,
+    600
+  );
+}
+
+h2 {
+  @include font-style(
+    $h2-font-size,
+    $h2-font-height,
+    normal,
+    $secondary-color-dark-pink,
+    $main-font-family-semi,
+    600
+  );
+}

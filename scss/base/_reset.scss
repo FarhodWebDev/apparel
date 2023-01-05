@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 2px dashed $secondary-color-light-pink;
+  outline-offset: 4px;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: $secondary-color-light-pink;
+  background-image: url("../pictures/png/hero.png"),
+    url("../pictures/png/main-bg.png");
+  background-repeat: no-repeat;
+  background-position: top right, center;
+  background-size: 810px 100%, cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+.h5,
+.h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+}
+
+.thin {
+  font-family: $main-font-family-thin;
+  font-weight: 300;
+}
+
+.text-dark-brown {
+  color: $primary-color-dark-brown;
+  line-height: $h1-font-height-big;
+}

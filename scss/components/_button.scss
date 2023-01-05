@@ -1,0 +1,24 @@
+.site-btn {
+  display: inline-block;
+  background: $primary-color-gr;
+  padding: {
+    top: 1.9rem;
+    bottom: 1.9rem;
+    left: 4.5rem;
+    right: 4.5rem;
+  }
+  border-radius: 28px;
+  box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+  border: none;
+
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 0.4;
+  }
+  &:focus {
+    outline: 2px dashed $secondary-color-light-pink;
+    outline-offset: 4px;
+  }
+}
